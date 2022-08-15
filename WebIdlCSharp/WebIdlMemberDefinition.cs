@@ -1,11 +1,10 @@
-﻿namespace WebIdlCSharp
+﻿namespace WebIdlCSharp;
+
+public class WebIdlMemberDefinition : BaseWebIdlDefinition
 {
-    public class WebIdlMemberDefinition : BaseWebIdlDefinition
-    {
-        public string Name { get; set; }
+    public string Name { get; set; }
 
-        public WebIdlBodyDefinition Body { get; set; }
+    public WebIdlBodyDefinition Body { get; set; }
 
-        public WebIdlTypeReference IdlType { get; set; }
-    }
+    public WebIdlTypeReference IdlType { get; set; }
 }

@@ -3,6 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <VersionPrefix>0.1.1</VersionPrefix>
+    <LangVersion>10</LangVersion>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <Description>Library which simplify accessing to WebIDL data.</Description>
   </PropertyGroup>

@@ -1,7 +1,6 @@
-﻿namespace WebIdlCSharp
+﻿namespace WebIdlCSharp;
+
+public class GenericInformation
 {
-    public class GenericInformation
-    {
-        public string Value { get; set; }
-    }
+    public string Value { get; set; }
 }

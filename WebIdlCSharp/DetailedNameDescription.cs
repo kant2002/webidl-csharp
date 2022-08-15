@@ -1,9 +1,8 @@
-﻿namespace WebIdlCSharp
-{
-    public class DetailedNameDescription
-    {
-        public string Name { get; set; }
+﻿namespace WebIdlCSharp;
 
-        public string Escaped { get; set; }
-    }
+public class DetailedNameDescription
+{
+    public string Name { get; set; }
+
+    public string Escaped { get; set; }
 }

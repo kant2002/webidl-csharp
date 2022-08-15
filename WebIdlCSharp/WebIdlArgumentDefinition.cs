@@ -1,10 +1,9 @@
-﻿namespace WebIdlCSharp
-{
-    public class WebIdlArgumentDefinition : BaseWebIdlDefinition
-    {
-        public string Name { get; set; }
-        public string EscapedName { get; set; }
+﻿namespace WebIdlCSharp;
 
-        public WebIdlTypeReference IdlType { get; set; }
-    }
+public class WebIdlArgumentDefinition : BaseWebIdlDefinition
+{
+    public string Name { get; set; }
+    public string EscapedName { get; set; }
+
+    public WebIdlTypeReference IdlType { get; set; }
 }
